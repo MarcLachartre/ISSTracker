@@ -15,7 +15,6 @@ export default class Design {
         return document.querySelector(".container").appendChild(worldMap);
     }
 
-
     showAlertBox(id, title, text, buttonText, imgURL, imgClass, callback, arg) {
         if (document.querySelector(".background") === null) {
             this.addBlurBackground();
